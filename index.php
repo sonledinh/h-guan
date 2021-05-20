@@ -1,6 +1,7 @@
 <?php include 'header.php';?>
 <style>
 	header, footer {display: none;}
+	main {margin-top: 0;}
 </style>
 <main>
 	<section class="cover-home">

@@ -1,4 +1,14 @@
-
+main {
+    margin-top: 89px;
+}
+header {
+	background: #fff;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    width: 100%;
+    position: fixed;
+}
 .header-menu {
 	font-family: 'Abel';
 	padding: 15px 0;
@@ -7,12 +17,38 @@
     	padding: 0 50px;
     }
 }
+.social-head {
+	ul {
+		display: flex;
+	    align-items: center;
+	    justify-content: flex-end;
+	    li {
+	    	margin-right: 15px !important;
+	    	&:last-child {
+	    		margin-right: 0 !important;
+	    	}
+	    }
+	    a {
+	    	display: flex;
+	    }
+	}
+	.btn-search {
+		display: flex;
+	} 
+}
 .h-menu {
+	.logo {
+		a {
+			&:after {
+				display: none;
+			}
+		}
+	}
 	ul {
 		list-style: none;
 	    display: flex;
-	    justify-content: center;
 	    font-size: 14px;
+	    align-items: center;
 	    li {
 	    	padding: 0 20px;
 	    }
@@ -89,6 +125,9 @@ footer {
 				margin-bottom: 0;
 			}
 		}
+	}
+	.col-md-5 {
+		padding-left: 80px;
 	}
 }
 .title-ft {

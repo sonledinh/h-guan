@@ -180,6 +180,18 @@
     .reserved .social ul {
         text-align: center;
     }
+    .cate-search {
+        padding-top: 0;
+    }
+
+    .result-search {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .list-result .col-md-4 {
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {

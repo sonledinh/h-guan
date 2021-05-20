@@ -14,17 +14,20 @@
     <link rel="stylesheet" type="text/css" title="" href="css/style.css">
     <link rel="stylesheet" type="text/css" title="" href="css/responsive.css"> 
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.min.js"></script>  -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 </head>
 <body>  
     <header>
         <div class="header-menu">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-3"><div class="logo"><a href=""><img src="images/h-guan-logo-3.png" class="img-fluid" alt=""></a></div></div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <div class="h-menu text-center text-uppercase">
                             <ul>
+                                <li>
+                                    <div class="logo"><a href=""><img src="images/h-guan-logo-3.png" class="img-fluid" alt=""></a></div>
+                                </li>
                                 <li><a href="index.php" class="active">Home</a></li>
                                 <li><a href="about.php">About</a></li>
                                 <li><a href="project.php">Projects</a></li>
@@ -33,10 +36,19 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 text-right">
-                        <div class="btn-search"><a href="javascript:void(0)">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                        </a></div>
+                    <div class="col-md-4 text-right">
+                        <div class="social-head">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                                <li class="list-inline-item">
+                                    <div class="btn-search"><a href="javascript:void(0)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                    </a></div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

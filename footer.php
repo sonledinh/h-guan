@@ -1,8 +1,8 @@
 <footer>
 	<div class="footer-top">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<div class="item-ft">
 						<div class="title-ft">ABOUT US</div>
 						<div class="info">
@@ -12,7 +12,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-5">
 					<div class="item-ft">
 						<div class="title-ft">CONTACT</div>
 						<div class="link-ft">
@@ -36,19 +36,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="item-ft">
-						<div class="title-ft">GET IN TOUCH</div>
-						<div class="btn-ft">
-							<a href="" target="_blank">線上諮詢表單</a>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
 	<div class="reserved">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-6">
 					<p>© 2021 禾觀空間設計 Hguan Interior Design. All rights reserved.</p>
@@ -69,6 +61,7 @@
 	</div>
 </footer>
 <!--Link js--> 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
 <script type="text/javascript" src="js/fancybox.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
