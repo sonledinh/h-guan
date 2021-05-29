@@ -141,6 +141,8 @@ header {
   align-items: center; }
   .h-menu ul li {
     padding: 0 20px; }
+    .h-menu ul li:first-child {
+      padding-left: 0; }
 .h-menu a {
   color: #54595f;
   position: relative; }
@@ -746,7 +748,8 @@ footer {
   .item-ab .info {
     margin-bottom: 20px;
     color: #5e5e5e;
-    flex: 0 0 100%; }
+    flex: 0 0 100%;
+    min-height: 76px; }
     .item-ab .info h2 {
       font-size: 15px;
       margin-bottom: 15px; }

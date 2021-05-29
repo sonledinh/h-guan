@@ -21,7 +21,7 @@ body {
         text-decoration: none !important;        
         transition: .3s all;  
         margin-bottom: 0;  
-        outline: none !important;  
+        outline: none !important;   
     }    
     a { 
         transition: .3s all !important; 
@@ -644,6 +644,7 @@ body {
         margin-bottom: 20px;
         color: #5e5e5e;
         flex: 0 0 100%;
+        min-height: 76px;
         h2 {
             font-size: 15px;
             margin-bottom: 15px;

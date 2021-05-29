@@ -87,13 +87,9 @@
     }
 
     .about-bott .col-md-4:nth-child(2n) .item-ab .info {
-        order: 1;
-        margin-bottom: 20px;
     }
 
     .about-bott .col-md-4:nth-child(2n) .item-ab .avarta {
-        order: 2;
-        margin-bottom: 0;
     }
 
     footer {
@@ -191,6 +187,35 @@
 
     .list-result .col-md-4 {
         margin-bottom: 40px;
+    }
+
+    .about-bott .col-md-4:first-child .avarta {
+        max-width: 50%;
+        padding-right: 7px;
+    }
+
+    .about-bott .col-md-4:nth-child(2) .avarta {
+        max-width: 50%;
+        margin-left: auto;
+        padding-left: 7px;
+        margin-top: -150px;
+    }
+
+    .about-bott .col-md-4:first-child .avarta img {
+        /* max-height: 195px; */
+    }
+
+    .about-bott .col-md-4:nth-child(2n) .item-ab .avarta img {
+        /* max-height: 195px; */
+    }
+
+    .item-ab .info {
+        min-height: auto;
+        margin: 0;
+    }
+
+    .about-bott .col-md-4:first-child .info {
+        margin-bottom: 20px;
     }
 }
 
