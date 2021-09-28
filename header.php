@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>h-guan</title>
+    <title>Nguyên Bình</title>
     <!--link css-->
-    <link rel="stylesheet" type="text/css" title="" href="css/fancybox.min.css">
     <link rel="stylesheet" type="text/css" title="" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" title="" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" title="" href="css/slick.min.css">
@@ -14,72 +13,40 @@
     <link rel="stylesheet" type="text/css" title="" href="css/style.css">
     <link rel="stylesheet" type="text/css" title="" href="css/responsive.css"> 
 
-    <!-- <script type="text/javascript" src="js/jquery.min.js"></script>  -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script> 
 </head>
 <body>  
     <header>
-        <div class="header-menu">
+        <div class="header-top">
             <div class="container">
                 <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <div class="logo"><a href=""><img src="images/logo.png" class="img-fluid" alt=""></a></div>
+                    </div>
                     <div class="col-md-8">
-                        <div class="h-menu text-center text-uppercase">
-                            <ul>
-                                <li>
-                                    <div class="logo"><a href=""><img src="images/h-guan-logo-3.png" class="img-fluid" alt=""></a></div>
-                                </li>
-                                <li><a href="index.php" class="active">Home</a></li>
-                                <li><a href="about.php">About</a></li>
-                                <li><a href="project.php">Projects</a></li>
-                                <li><a href="news.php">News</a></li>
-                                <li><a href="contact.php">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-right">
-                        <div class="social-head">
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-                                <li class="list-inline-item">
-                                    <div class="btn-search"><a href="javascript:void(0)">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                                    </a></div>
-                                </li>
-                            </ul>
+                        <div class="head-right">
+                            <div class="box-search">
+                                <input type="text">
+                                <button><img src="images/search.png" class="img-fluid" alt=""></button>
+                            </div>
+                            <div class="hotline">Hotline: 0937 327 777</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="menu-mobile" style="display: none;">
+        <div class="header-menu text-center">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-6">
-                        <div class="logo"><a href=""><img src="images/h-guan-logo-3.png" class="img-fluid" alt=""></a></div>
-                    </div>
-                    <div class="col-md-6 col-6">
-                        <div class="btn-menu text-right"><a href="javascript:void(0)"><svg style="enable-background:new 0 0 139 139;" width="42px" height="42px" version="1.1" viewBox="0 0 139 139" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><line class="st0" x1="26.5" x2="112.5" y1="46.3" y2="46.3"></line><line class="st0" id="XMLID_9_" x1="26.5" x2="112.5" y1="92.7" y2="92.7"></line><line class="st0" id="XMLID_8_" x1="26.5" x2="112.5" y1="69.5" y2="69.5"></line></svg></a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="mm-mobile">
-                <ul>
-                    <li><a href="index.php" class="active">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="project.php">Projects</a></li>
-                    <li><a href="news.php">News</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="popup-search">
-            <div class="close-search"><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></a></div>
-            <div class="container">
-                <div class="box-search">
-                    <input type="text" placeholder="SEARCH">
-                    <button><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
+                <div class="h-menu">
+                    <ul>
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Sản phẩm</a></li>
+                        <li><a href="">Dịch vụ</a></li>
+                        <li><a href="">Dự án</a></li>
+                        <li><a href="">Tin tức</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
