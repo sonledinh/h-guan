@@ -28,7 +28,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> 
 	<section class="box-product"></section>
 	<section class="box-partner">
 		<div class="container">
@@ -41,16 +41,22 @@
 					<div class="item-part"><a href=""><img src="images/part-1.png" class="img-fluid" alt=""></a></div>
 				</div>
 				<div class="item-slide">
-					<div class="item-part"><a href=""><img src="images/part-1.png" class="img-fluid" alt=""></a></div>
+					<div class="item-part"><a href=""><img src="images/part-2.png" class="img-fluid" alt=""></a></div>
 				</div>
 				<div class="item-slide">
-					<div class="item-part"><a href=""><img src="images/part-1.png" class="img-fluid" alt=""></a></div>
+					<div class="item-part"><a href=""><img src="images/part-3.png" class="img-fluid" alt=""></a></div>
 				</div>
 				<div class="item-slide">
-					<div class="item-part"><a href=""><img src="images/part-1.png" class="img-fluid" alt=""></a></div>
+					<div class="item-part"><a href=""><img src="images/part-4.png" class="img-fluid" alt=""></a></div>
 				</div>
 				<div class="item-slide">
-					<div class="item-part"><a href=""><img src="images/part-1.png" class="img-fluid" alt=""></a></div>
+					<div class="item-part"><a href=""><img src="images/part-5.png" class="img-fluid" alt=""></a></div>
+				</div>
+				<div class="item-slide">
+					<div class="item-part"><a href=""><img src="images/part-4.png" class="img-fluid" alt=""></a></div>
+				</div>
+				<div class="item-slide">
+					<div class="item-part"><a href=""><img src="images/part-5.png" class="img-fluid" alt=""></a></div>
 				</div>
 			</div>
 		</div>

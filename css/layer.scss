@@ -1,0 +1,151 @@
+header {
+	position: relative;
+	z-index: 2;
+}
+.header-top {
+	padding: 20px 0;
+	.head-right {
+		display: flex;
+	    align-items: center;
+	    justify-content: flex-end;
+	}
+	.box-search {
+		position: relative;
+    	width: 325px;
+    	input {
+    		height: 40px;
+		    width: 100%;
+		    border-radius: 30px;
+		    border: 2px solid #b3b3b3;
+		    padding: 0 15px;
+    	}
+    	button {
+    		cursor: pointer;
+		    border: 0;
+		    background: transparent;
+		    position: absolute;
+		    top: 5px;
+		    right: 15px;
+    	}
+	}
+	.hotline {
+		font-weight: bold;
+    	font-size: 22px;
+    	margin-left: 30px;
+	}
+}
+.header-menu {
+	background: #00000073;
+	padding: 3px 0;
+}
+.h-menu {
+	ul {
+		list-style: none;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	}
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 22px;
+		border-radius: 5px;
+		color: #fff;
+		height: 45px;
+		min-width: 140px;
+		position: relative;
+		&.active, &:hover {
+			background: #fff;
+			color: #212121;
+			&:after {
+				opacity: 0;
+			}
+		}
+		&:after {
+			content: "";
+		    width: 1px;
+		    height: 100%;
+		    background: #fff;
+		    position: absolute;
+		    top: 0;
+		    right: 0;
+		    transition: .3s all !important;
+		}
+	}
+}
+
+// main {
+// 	margin-top: -49px;
+// }
+
+.footer-bott {
+	background: #000000eb;
+    color: #fff;
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+.footer-top {
+	padding: 60px 0;
+	background: url('../images/bn-footer.jpg') no-repeat center;
+	background-size: cover;
+}
+.txt-footer-left {
+	h3 {
+		font-weight: bold;
+    	font-size: 22px;
+	}
+	ul {
+		padding: 20px 0;
+    	list-style: none;
+    	li {
+    		margin-bottom: 12px;
+    		&:last-child {
+    			margin-bottom: 0;
+    		}
+    	}
+	}
+}
+.txt-footer-right {
+	max-width: 400px;
+    margin-left: auto;
+    font-family: auto;
+    .social {
+    	margin-bottom: 30px;
+    	ul {
+    		display: flex;
+		    align-items: center;
+		    justify-content: flex-end;
+    	}
+    }
+}
+.link-ft {
+	ul {
+		display: flex;
+	    flex-wrap: wrap;
+	    list-style: none;
+	    li {
+	    	padding-right: 15px;
+		    margin-right: 10px;
+		    position: relative;
+		    margin-bottom: 5px;
+		    &:after {
+		    	content: "|";
+			    font-weight: bold;
+			    position: absolute;
+			    top: 0;
+			    right: 0;
+		    }
+		    &:last-child {
+		    	padding-right: 0;
+		    	margin-right: 0;
+		    	&:after {
+		    		display: none;
+		    	}
+		    }
+	    }
+	}
+}

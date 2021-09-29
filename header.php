@@ -39,7 +39,7 @@
             <div class="container">
                 <div class="h-menu">
                     <ul>
-                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="" class="active">Trang chủ</a></li>
                         <li><a href="">Giới thiệu</a></li>
                         <li><a href="">Sản phẩm</a></li>
                         <li><a href="">Dịch vụ</a></li>
