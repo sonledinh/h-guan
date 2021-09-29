@@ -55,6 +55,16 @@ body {
     .slick-slider {
         margin-bottom: 0;
     }
+    @media (max-width: 1300px) {
+        .container {
+            padding: 0 50px;
+        }
+    }
+    @media (max-width: 1023px) {
+        .container {
+            padding: 0 20px;
+        }
+    }
 }
 @import "layer.scss";
 @import "main.scss";

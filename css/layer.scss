@@ -33,6 +33,15 @@ header {
     	font-size: 22px;
     	margin-left: 30px;
 	}
+	@media (max-width: 1023px) {
+		.hotline {
+			font-size: 16px;
+		}
+		.box-search {
+			width: 100%;
+    		max-width: 250px;
+		}
+	}
 }
 .header-menu {
 	background: #00000073;
@@ -75,6 +84,14 @@ header {
 		    transition: .3s all !important;
 		}
 	}
+	@media (max-width: 1023px) {
+		a {
+			font-size: 13px;
+		    min-width: unset;
+		    padding: 0 17px;
+		    height: 35px;
+		}
+	}
 }
 
 // main {
@@ -92,6 +109,9 @@ header {
 	padding: 60px 0;
 	background: url('../images/bn-footer.jpg') no-repeat center;
 	background-size: cover;
+	@media(max-width: 1023px) {
+		font-size: 14px;
+	}
 }
 .txt-footer-left {
 	h3 {
@@ -148,4 +168,29 @@ header {
 		    }
 	    }
 	}
+}
+
+nav#menu {
+    display: none;
+    z-index: 1001;
+    &.mm-menu_opened {
+    	display: block;
+    }
+}
+
+@media (max-width: 767px) {
+	.header-top, .header-menu {
+		display: none;
+	}
+	.header-mobile {
+		display: block !important;
+		padding: 10px 0;
+	}
+	.header-btn {
+		a {
+			font-size: 22px;
+    		color: #434bb9;
+		}
+	}
+
 }
