@@ -799,6 +799,11 @@ nav#menu {
       .item-project .txt-project {
         padding: 15px; } }
 
+.tab-contenet-srv {
+  display: none; }
+  .tab-contenet-srv.active {
+    display: block; }
+
 @media (max-width: 1023px) {
   .box-product .container .row .col-md-6 {
     margin: 0;

@@ -60,6 +60,16 @@ $('.list-tab a').click(function(){
     $("#"+tab_id).addClass('active');
 })
 
+$('.tab-srv-clc').click(function(){
+    var tab_id = $(this).attr('data-tab');
+
+    $('.tab-srv-clc').removeClass('active');
+    $('.tab-contenet-srv').removeClass('active');
+
+    $(this).addClass('active');
+    $("#"+tab_id).addClass('active');
+})
+
 jQuery(document).ready(function( $ ) {
   $("#menu").mmenu({
      "extensions": [

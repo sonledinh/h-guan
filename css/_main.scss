@@ -690,6 +690,13 @@
     }
 }
 
+.tab-contenet-srv {
+	display: none;
+	&.active {
+		display: block;
+	}
+}
+
 
 @media (max-width: 1023px) {
 	.box-product .container .row .col-md-6 {
